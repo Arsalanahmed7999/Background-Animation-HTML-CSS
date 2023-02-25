@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #001212;
+}
+
+button{
+    font-size: 70px;
+    font-weight: bold;
+    height: 100px;
+    width: 350px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px black;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-color: salmon;
+    }
+    10%{
+        background-color: orange;
+    }
+    20%{
+        background-color:yellow;
+    }
+    30%{
+        background-color: navajowhite;
+    }
+    40%{
+        background-color: green;
+    }
+    50%{
+        background-color: aqua;
+    }
+    60%{
+        background-color: violet;
+    }
+    70%{
+        background-color: lemonchiffon;
+    }
+    80%{
+        background-color: teal;
+    }
+    90%{
+        background-color: goldenrod;
+    }
+    100%{
+        background-color:yellowgreen;
+    }
+}
+
+button:hover{
+    box-shadow: 0 0 10px white, 0 0 20px white;
+}
